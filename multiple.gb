@@ -1,0 +1,302 @@
+LOCUS       OCOINS                   432 bp    mRNA    linear   ROD 27-APR-1993
+DEFINITION  Octodon degus insulin mRNA, complete cds.
+ACCESSION   M57671
+VERSION     M57671.1
+KEYWORDS    insulin; insulin alpha-chain; insulin beta-chain; insulin
+            connecting peptide.
+SOURCE      Octodon degus (degu)
+  ORGANISM  Octodon degus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricomorpha; Octodontidae; Octodon.
+REFERENCE   1  (bases 1 to 432)
+  AUTHORS   Nishi,M. and Steiner,D.F.
+  TITLE     Cloning of complementary DNAs encoding islet amyloid polypeptide,
+            insulin, and glucagon precursors from a New World rodent, the degu,
+            Octodon degus
+  JOURNAL   Mol. Endocrinol. 4 (8), 1192-1198 (1990)
+   PUBMED   2293024
+COMMENT     Original source text: Octodon degus pancreas, cDNA to mRNA.
+FEATURES             Location/Qualifiers
+     source          1..432
+                     /organism="Octodon degus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10160"
+                     /tissue_type="pancreas"
+     gene            1..432
+                     /gene="insulin"
+     CDS             42..371
+                     /gene="insulin"
+                     /codon_start=1
+                     /product="insulin"
+                     /protein_id="AAA40590.1"
+                     /translation="MAPWMHLLTVLALLALWGPNSVQAYSSQHLCGSNLVEALYMTCG
+                     RSGFYRPHDRRELEDLQVEQAELGLEAGGLQPSALEMILQKRGIVDQCCNNICTFNQL
+                     QNYCNVP"
+     sig_peptide     42..113
+                     /gene="insulin"
+     mat_peptide     114..200
+                     /gene="insulin"
+                     /product="insulin B-chain"
+     mat_peptide     207..293
+                     /gene="insulin"
+                     /product="insulin C-peptide"
+     mat_peptide     300..368
+                     /gene="insulin"
+                     /product="insulin A-chain"
+     regulatory      414..419
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="insulin"
+     polyA_site      432
+                     /gene="insulin"
+ORIGIN      
+        1 gcattctgag gcattctcta acaggttctc gaccctccgc catggccccg tggatgcatc
+       61 tcctcaccgt gctggccctg ctggccctct ggggacccaa ctctgttcag gcctattcca
+      121 gccagcacct gtgcggctcc aacctagtgg aggcactgta catgacatgt ggacggagtg
+      181 gcttctatag accccacgac cgccgagagc tggaggacct ccaggtggag caggcagaac
+      241 tgggtctgga ggcaggcggc ctgcagcctt cggccctgga gatgattctg cagaagcgcg
+      301 gcattgtgga tcagtgctgt aataacattt gcacatttaa ccagctgcag aactactgca
+      361 atgtccctta gacacctgcc ttgggcctgg cctgctgctc tgccctggca accaataaac
+      421 cccttgaatg ag
+//
+
+LOCUS       NM_001204686             968 bp    mRNA    linear   INV 23-DEC-2022
+DEFINITION  Aplysia californica insulin precursor (PIN), mRNA.
+ACCESSION   NM_001204686
+VERSION     NM_001204686.1
+KEYWORDS    RefSeq.
+SOURCE      Aplysia californica (California sea hare)
+  ORGANISM  Aplysia californica
+            Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Gastropoda;
+            Heterobranchia; Euthyneura; Tectipleura; Aplysiida; Aplysioidea;
+            Aplysiidae; Aplysia.
+REFERENCE   1  (bases 1 to 968)
+  AUTHORS   Jakubowski JA, Hatcher NG, Xie F and Sweedler JV.
+  TITLE     The first gamma-carboxyglutamate-containing neuropeptide
+  JOURNAL   Neurochem Int 49 (3), 223-229 (2006)
+   PUBMED   16522341
+REFERENCE   2  (bases 1 to 968)
+  AUTHORS   Floyd PD, Li L, Rubakhin SS, Sweedler JV, Horn CC, Kupfermann I,
+            Alexeeva VY, Ellis TA, Dembrow NC, Weiss KR and Vilim FS.
+  TITLE     Insulin prohormone processing, distribution, and relation to
+            metabolism in Aplysia californica
+  JOURNAL   J Neurosci 19 (18), 7732-7741 (1999)
+   PUBMED   10479677
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AF160192.1.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AF160192.1 [ECO:0000332]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..968
+                     /organism="Aplysia californica"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:6500"
+     gene            1..968
+                     /gene="PIN"
+                     /gene_synonym="Insulin"
+                     /note="insulin precursor"
+                     /db_xref="GeneID:100533403"
+     misc_feature    278..280
+                     /gene="PIN"
+                     /gene_synonym="Insulin"
+                     /note="upstream in-frame stop codon"
+     CDS             311..781
+                     /gene="PIN"
+                     /gene_synonym="Insulin"
+                     /codon_start=1
+                     /product="insulin precursor"
+                     /protein_id="NP_001191615.1"
+                     /db_xref="GeneID:100533403"
+                     /translation="MSKFLLQSHSANACLLTLLLTLASNLDISLANFEHSCNGYMRPH
+                     PRGLCGEDLHVIISNLCSSLGGNRRFLAKYMVKRDTENVNDKLRGILLNKKEAFSYLT
+                     KREASGSITCECCFNQCRIFELAQYCRLPDHFFSRISRTGRSNSGHAQLEDNFS"
+     sig_peptide     311..403
+                     /gene="PIN"
+                     /gene_synonym="Insulin"
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+     mat_peptide     404..778
+                     /gene="PIN"
+                     /gene_synonym="Insulin"
+                     /product="insulin"
+     misc_feature    764..766
+                     /gene="PIN"
+                     /gene_synonym="Insulin"
+                     /note="4-carboxyglutamate.
+                     /evidence=ECO:0000269|PubMed:16522341; propagated from
+                     UniProtKB/Swiss-Prot (Q9NDE7.1);
+                     gamma-carboxyglutamic-acid site"
+ORIGIN      
+        1 cctgaatata gccaactaaa ttctaggaac tctaagagga ctacgcttgt ctccaacatc
+       61 ttatcgtcaa catcttctgc aagcgataac tatatttctg gtccgccaaa gtagtatacg
+      121 ctaagaacaa gaggaagaga gtcgtaaggt tttttattcc cagccggcga gagcagaaac
+      181 tgttgttcta gctgcctttc tggtcttaac aggaccattt tgctggccag tgaaaaacta
+      241 actcgggtga aacaacattg gtgctaccag cctctcctga ctgttccaac ggtgccttct
+      301 cgtagccaga atgagcaagt tcctcctcca gagccactcc gccaacgcct gcctgctcac
+      361 ccttctgctc acgctggcct ccaacctcga catatccctg gccaacttcg agcactcgtg
+      421 caacggctac atgcggcccc acccgcgggg tctgtgcggc gaagacctgc acgtcatcat
+      481 ttccaacctg tgcagctctc tggggggcaa caggaggttc ctggccaagt acatggtcaa
+      541 aagagacacg gaaaatgtga acgacaagtt acgagggatc ctgctcaata agaaagaagc
+      601 tttctcctac ttgaccaaga gagaggcctc aggctccatc acatgcgaat gttgcttcaa
+      661 ccagtgtcgg atatttgagc tggctcagta ctgccgtctg ccagaccatt tcttctccag
+      721 aatatccaga accggaagga gcaacagtgg acatgcgcag ttggaggaca actttagtta
+      781 gacatgttga gggcgtaaat gcttttaaaa tttttaattt ggtgattatt attataaagg
+      841 aggagtccac gtggtgtcag atttagcggg ttttttccac gtgtttgact aaagtttcca
+      901 gatttatttc ataccagcga tacccgcagg aatagaaggt cccctaagaa gctgaaggca
+      961 ttattgat
+//
+
+LOCUS       RABINSAA                 250 bp    mRNA    linear   MAM 11-APR-1994
+DEFINITION  Oryctolagus cuniculus insulin mRNA, partial cds.
+ACCESSION   M61153
+VERSION     M61153.1
+KEYWORDS    insulin.
+SOURCE      Oryctolagus cuniculus (rabbit)
+  ORGANISM  Oryctolagus cuniculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha;
+            Leporidae; Oryctolagus.
+REFERENCE   1  (bases 1 to 250)
+  AUTHORS   Giddings,S.J., Carnaghi,L. and Devaskar,S.
+  TITLE     Nucleotide sequence of a cDNA encoding rabbit preproinsulin
+  JOURNAL   Unpublished
+COMMENT     Original source text: Oryctolagus cuniculus cDNA to mRNA.
+FEATURES             Location/Qualifiers
+     source          1..250
+                     /organism="Oryctolagus cuniculus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9986"
+     CDS             <1..168
+                     /codon_start=1
+                     /product="insulin"
+                     /protein_id="AAA17540.1"
+                     /translation="REVEELQVGQAELGGGPGAGGLQPSALYLALQKRGIVEQCCTSI
+                     CSLYQLENYCN"
+ORIGIN      
+        1 cgcgaggtgg aggagctgca ggtggggcag gcggagctgg gcgggggccc cggcgcgggc
+       61 ggcctgcagc cctcggcgct ttatctggcc ctgcagaagc gcggcatcgt ggagcagtgt
+      121 tgcaccagca tctgctcgct ctaccagctg gagaactact gcaactaggg gtgcccccca
+      181 cccacccctg cccgcgcccc ccacgccccc cgccctcgcc cccacccaat aaacccctcc
+      241 acgcgccccc
+//
+
+LOCUS       JF909299                 285 bp    mRNA    linear   PRI 25-JUL-2016
+DEFINITION  Homo sapiens insulin (INS) mRNA, partial cds.
+ACCESSION   JF909299
+VERSION     JF909299.1
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 285)
+  AUTHORS   Piri,H., Kazemi,B., Bandehpour,M., Rezaei,M., Goodarzi,M.T.,
+            Khodadadi,I., Hasanzadeh,T., Sirati Sabet,M., Tasa,D.,
+            Heidari,H.R., Karimi,J., Yari Khosroshahi,A., Eghdami,A. and
+            Tavakkoli,A.H.
+  TITLE     Preparation of human insulin gene construct in order to use in
+            diabetes mellitus gene therapy
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 285)
+  AUTHORS   Piri,H., Kazemi,B., Bandehpour,M., Rezaei,M., Goodarzi,M.T.,
+            Khodadadi,I., Hasanzadeh,T., Sirati Sabet,M., Tasa,D.,
+            Heidari,H.R., Karimi,J., Yari Khosroshahi,A., Eghdami,A. and
+            Tavakkoli,A.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-APR-2011) Biochemistry, Qazvin University of Medical
+            Science, Bahonar Blvd., Qazvin 3419759811, Iran
+FEATURES             Location/Qualifiers
+     source          1..285
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /clone="pBindIns"
+                     /sex="male"
+                     /tissue_type="pancreas"
+                     /country="Iran"
+                     /PCR_primers="fwd_name: INS-fwd, fwd_seq:
+                     cttggaagcttatggccctgtggatgcgc, rev_name: INS-rev, rev_seq:
+                     gcttactcgagctagttgcagtagttctccag"
+     gene            <1..>285
+                     /gene="INS"
+     CDS             <1..>285
+                     /gene="INS"
+                     /note="decreases blood glucose concentration and increases
+                     cell permeability to monosaccharides, amino acids and
+                     fatty acids; accelerates glycolysis, pentose phosphate
+                     cycle, and glycogen synthesis in liver"
+                     /codon_start=2
+                     /product="insulin"
+                     /protein_id="AEG19452.1"
+                     /translation="WGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+                     LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN"
+     sig_peptide     <1..25
+                     /gene="INS"
+     misc_feature    26..115
+                     /gene="INS"
+                     /note="insulin B chain"
+     misc_feature    124..216
+                     /gene="INS"
+                     /note="C-peptide"
+     misc_feature    223..>285
+                     /gene="INS"
+                     /note="insulin A chain"
+ORIGIN      
+        1 ctggggacct gacccagccg cagcctttgt gaaccaacac ctgtgcggct cacacctggt
+       61 ggaagctctc tacctagtgt gcggggaacg aggcttcttc tacacaccca agacccgccg
+      121 ggaggcagag gacctgcagg tggggcaggt ggagctgggc gggggccctg gtgcaggcag
+      181 cctgcagccc ttggccctgg aggggtccct gcagaagcgt ggcattgtgg aacaatgctg
+      241 taccagcatc tgctccctct accagctgga gaactactgc aacta
+//
+
+LOCUS       OCU03610                 433 bp    mRNA    linear   MAM 21-JUN-1994
+DEFINITION  Oryctolagus cuniculus New Zealand White insulin mRNA, complete cds.
+ACCESSION   U03610
+VERSION     U03610.1
+KEYWORDS    .
+SOURCE      Oryctolagus cuniculus (rabbit)
+  ORGANISM  Oryctolagus cuniculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha;
+            Leporidae; Oryctolagus.
+REFERENCE   1  (bases 1 to 433)
+  AUTHORS   Devaskar,S.U., Giddings,S.J., Rajakumar,P.A., Carnaghi,L.R.,
+            Menon,R.K. and Zahm,D.S.
+  TITLE     Insulin gene expression and insulin synthesis in mammalian neuronal
+            cells
+  JOURNAL   J. Biol. Chem. 269 (11), 8445-8454 (1994)
+   PUBMED   8132571
+REFERENCE   2  (bases 1 to 433)
+  AUTHORS   Devaskar,S.U.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-NOV-1993) S. U. Devaskar, St. Louis University School
+            of Medicine, Pediatrics, 3662, Park Avenue, St. Louis, MO 63110,
+            USA
+FEATURES             Location/Qualifiers
+     source          1..433
+                     /organism="Oryctolagus cuniculus"
+                     /mol_type="mRNA"
+                     /strain="New Zealand white"
+                     /db_xref="taxon:9986"
+                     /clone="rabbit insulin cDNA"
+                     /tissue_type="pancreas"
+     CDS             17..349
+                     /codon_start=1
+                     /product="insulin"
+                     /protein_id="AAA19033.1"
+                     /translation="MASLAALLPLLALLVLCRLDPAQAFVNQHLCGSHLVEALYLVCG
+                     ERGFFYTPKSRREVEELQVGQAELGGGPGAGGLQPSALELALQKRGIVEQCCTSICSL
+                     YQLENYCN"
+ORIGIN      
+        1 tcatcggctc tgcaccatgg cctccctggc cgcgctcctg cccctgctgg ccctgctggt
+       61 cctctgcaga ctggatcctg cccaggcctt cgtcaaccag cacctgtgcg gctctcacct
+      121 ggtggaggcg ctgtacctgg tgtgcgggga gcgcggcttt ttttatacac ccaagtcccg
+      181 ccgcgaggtg gaggagctgc aggtggggca ggcggagctg ggcggggggc ccggcgcggg
+      241 cggcctgcag ccctcggcgc tggagctggc cctgcagaag cgcggcatcg tggagcagtg
+      301 ttgcaccagc atctgctcgc tctaccagct ggagaactac tgcaactagg ggtgcccccc
+      361 acccacccct gcccgcgccc cccacgcccc ccgccctcgc ccccacccaa taaacccctc
+      421 cacgcgcccc ggg
+//
+
